@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Statistical MeCATnic</h1>
+        <p>Biology through the lens of statistical mechanics</p>
+        <div className="links-container">
+          <a className="link-card" href="https://beansauce123.github.io/IonChannel/" target="_blank" rel="noopener noreferrer">
+            Simulating Voltage-Gated Ion Channels as a Random Walk
+          </a>
+          <a className="link-card" href="https://beansauce123.github.io/Ratchet/" target="_blank" rel="noopener noreferrer">
+            Modeling Molecular Motors as a Brownian Ratchet
+          </a>
+          <a className="link-card" href="https://beansauce123.github.io/WLC/" target="_blank" rel="noopener noreferrer">
+            Simulating DNA through the Worm-Like Chain Model
+          </a>
+        </div>
       </header>
     </div>
   );
 }
 
 export default App;
+
