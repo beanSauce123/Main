@@ -17,6 +17,9 @@ function App() {
           <a className="link-card" href="https://beansauce123.github.io/WLC/" target="_blank" rel="noopener noreferrer">
             Simulating DNA through the Worm-Like Chain Model
           </a>
+          <a className="link-card" href="https://beansauce123.github.io/quantumfold/" target="_blank" rel="noopener noreferrer">
+            Predicting protein folding using quantum computing
+          </a>
         </div>
       </header>
     </div>
